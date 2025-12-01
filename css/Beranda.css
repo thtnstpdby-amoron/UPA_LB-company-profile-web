@@ -1,0 +1,554 @@
+/* hero section dan header*/
+
+.hero-section {
+    height: 700px;
+    background-image: url('../assets/photos/beranda.jpeg');
+    background-size: cover;
+    background-position: center top;
+    position: relative;
+}
+
+.hero-overlay-1{
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    bottom: 1%;
+    z-index: 1;
+    background-image: linear-gradient(
+        transparent 0%,
+        #000000 100%,
+        transparent 100%
+    );
+}
+
+.hero-overlay{
+    width: 60%;
+    height: 700px;
+    position: absolute;
+    left: 40%;
+    background-image: linear-gradient(
+        to right,
+        transparent 0%,
+        #06956F 100%,
+        transparent 100%
+    );
+}
+
+.header-content{
+    z-index: 3;
+    position: absolute;
+    top: 40%;
+    right: 8%;
+    transform: translateY(-50%);
+    width: 80%;
+    text-align: right;
+}
+
+.header-content h1 {
+    font-weight: 700;
+    color: #FFFFFF;
+    line-height: 85.7%;
+    letter-spacing: -4%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.header-content p{
+    color: #FFFFFF;
+    line-height: 85.7%;
+    letter-spacing: -4%;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+.unique-shape{
+    position: absolute;
+    bottom: -20px;
+    width: 100%;
+    z-index: 2;
+}
+
+/* profile button */
+
+.custom-btn{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 30px;
+    font-size: 1.25em;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 50px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    transition: all 0.3s ease;
+}
+
+.custom-btn .icon-down {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    position: relative;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.custom-btn .icon-down::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%) rotate(45deg);
+    width: 8px;
+    height: 8px;
+    border-right: 3px solid #ffffff;
+    border-bottom: 3px solid #ffffff;
+}
+
+.custom-btn:hover {
+    background-color: white;
+    color: #00A968;
+    box-shadow: 0 0 0 2px #00A968;
+}
+
+.custom-btn:hover .icon-down {
+    border-color: #00A968;
+}
+
+.custom-btn:hover .icon-down::after {
+    border-right-color: #00A968;
+    border-bottom-color: #00A968;
+}
+
+/* about us section*/
+
+.profile-section{
+    padding-top: 60px;
+    position: relative;
+    overflow: hidden;
+    z-index: 10;
+}
+
+.profile-section .container{
+    padding-top: 60px;
+    position: relative;
+    z-index: 10;
+}
+
+.section-title{
+    position: relative;
+    font: 2.2em;
+    font-weight: 700;
+    color: #004d40;
+    margin-bottom: 0;
+    padding-bottom: 30px;
+}
+
+.section-title::after{
+    content: "";
+    display: block;
+    border-radius: 30px;
+    width: 500px;
+    height: 4px;
+    background-color: #00A968;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.lead{
+    font-size: 1.2em;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #555;
+}
+
+.mission-text{
+    color: #333;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.mission-list{
+    list-style-type: disc;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.2em;
+    font-weight: 500;
+    width: 80%;
+    text-align: left;
+    position: relative;
+    z-index: 2;
+}
+
+.mission-list li{
+    line-height: 1.1;
+    margin-bottom: 5px;
+}
+
+.unique-shape-2{
+    width: 100%;
+    margin-top: -10%;
+    z-index: 1;
+}
+
+.unique-shape-2 svg{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.circle{
+    position: absolute;
+    background-color: #00A968;
+    border-radius: 50%;
+    z-index: 5;
+}
+
+.circle-top-right{
+    width: 200px;
+    height: 200px;
+    top: 10px;
+    right: -30px;
+}
+
+.circle-top-right2{
+   width: 110px;
+    height: 110px;
+    top: 220px;
+    right: -30px;
+}
+
+.circle-top-right3{
+    width: 80px;
+    height: 80px;
+    top: 210px;
+    right: 90px;
+}
+
+.circle-bottom-left{
+    width: 250px;
+    height: 250px;
+    bottom: 50px;
+    left: -70px;
+}
+
+.circle-bottom-left2{
+    width: 100px;
+    height: 100px;
+    bottom: 310px;
+    left: -30px;
+}
+
+.circle-bottom-left3{
+    width: 75px;
+    height: 75px;
+    bottom: 305px;
+    left: 80px;
+}
+
+/*achievements section*/
+
+.achievements-section{
+    position: relative;
+    z-index: 5;
+    height: 900px;
+    margin-top: -15%;
+}
+
+.ach-bg{
+    height: 100%;
+    width: 100%;
+    background-image: url(../assets/photos/ach.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.isik{
+    display: flex;
+    gap: 30px;
+    width: 90%;
+    justify-content: center;
+}
+
+.wbunder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 130px;
+}
+
+.tbunder{
+    margin-top: 10px;
+    font-size: 1.2em;
+    line-height: 1;
+    font-weight: 600;
+    text-align: center;
+    color: #ffffff;
+}
+
+.bunder{
+    border-radius: 50%;
+    background-color: #00A968;
+    display: flex;
+    justify-content: center;
+    width: 130px;
+    height: 130px;
+}
+
+.bunder img{
+    width: 110px;
+    height: 110px;
+    margin: auto;
+}
+
+.radial-bg{
+    margin-top: -25%;
+    margin-left: 5%;
+    width: 1000px;
+    height: 1000px;
+    border-radius: 50%;
+    background-image: radial-gradient(
+        circle,
+        rgba(0, 169, 104, 1),
+        rgba(0, 169, 104, 0.8),
+        rgba(255, 255, 255, 0),
+        rgba(255, 255, 255, 0)
+    );
+}
+
+
+
+/*client review*/
+.review-sec{
+    position: relative;
+    z-index: 10;
+    margin-top: -10%;
+    width: 100%;
+}
+.svg-wrapper{
+    display: block;
+    width: 100%;
+}
+
+.konten{
+    position: relative;
+    margin-top: -40%;
+    z-index: 5;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rs-heading{
+    text-align: left;
+    width: 350px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 50px;
+}
+  
+.kertas-minyak{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 50px;
+    margin-top: 0px;
+
+}
+
+/*review box*/
+.review-box{
+    width: 300px;
+    height: 400px;
+    border-radius: 16px;
+    background-color: transparent 1%, #ffffff;
+    box-shadow: 4px 6px 15px 2px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    align-items: center;
+}
+.rev-profile{
+    margin-top: 50px;
+}
+
+.review-box h6{
+    font-size: 1em;
+    font-weight: 700;
+    padding-top: 10px;
+}
+.review-box p{
+    max-width: 85%;
+    margin: 0 auto;
+    padding-top: 30px;
+    text-align: center;
+    line-height: 1.1;
+}
+
+.bb{
+    background-image: linear-gradient(
+        #0DA57D, #32FEC8
+    );
+    border-radius: 50%;
+    position: absolute;
+}
+
+.bulat-kanan1{
+    width: 200px;
+    height: 200px;
+    right: -80px;
+    top: 0;
+}
+
+.bulat-kanan2{
+    width: 150px;
+    height: 150px;
+    right: -100px;
+    top: 210px;
+}
+
+.bulat-kanan3{
+    width: 100px;
+    height: 100px;
+    right: 50px;
+    top: 185px;
+}
+
+.bulat-kanan4{
+    width: 50px;
+    height: 50px;
+    right: 53px;
+    top: 295px;
+}
+
+/*struktur organisasi*/
+
+.st-organisasi{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.st-organisasi h2{
+    font-weight: 700;
+}
+
+.baris-item{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 350px;
+    align-items: center;
+}
+
+.scroll-wrap{
+    width: 100%;
+    margin: 0 auto;
+    overflow-x: auto;
+    overflow-y: hidden;
+    overscroll-behavior-x: contain;
+}
+
+.item{
+    flex-shrink: 0;
+    width: 250px;
+    height: 300px;
+    text-align: center;
+    border-radius: 33px;
+    background-color: transparent 50%, #ffffff;
+    box-shadow: 4px 6px 15px 2px rgba(0, 0, 0, 0.5);
+}
+
+.item img{  
+    padding-top: 18px;
+    padding-bottom: 10px;
+    width: 210px;
+}
+
+.item p{
+    margin-top: -1%;
+    margin-bottom: -1%;
+}
+
+.bungkus-teh{
+    text-align: left;
+    margin-left: 20px;
+}
+
+.role{
+    font-weight: 700;
+}
+
+.garis-ijo{
+    width: 510px;
+    height: 10px;
+    background-color: #06956F;
+    border-radius: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4%;
+}
+
+/*rencana*/
+.rencana{
+    margin-top: 150px;
+    text-align: center;
+}
+
+.rencana h2{
+    font-weight: 700;
+}
+
+.plastik{
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+}
+
+.thing{
+    width: 70%;
+    height: 120px;
+    background-color: #bbffed ;
+    border-radius: 100px;
+    box-shadow: 4px 6px 15px 2px rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+}
+
+
+/*responsive*/
+@media (max-width: 576px){
+    .achievements-section{
+        margin-top: -90px;
+    }
+    .unique-shape-2{
+        margin-top: 50px;
+    }
+    .bunder{
+        width: 60px;
+        height: 60px;
+    }
+    .bunder img{
+        width: 30px;
+        height: 30px;
+    }
+    .tbunder{
+        font-size: 1em;
+    }
+
+    .rs-heading{
+        max-width: 1%;
+    }
+    
+
+    .kertas-minyak{
+        flex-direction: column;
+    }
+}

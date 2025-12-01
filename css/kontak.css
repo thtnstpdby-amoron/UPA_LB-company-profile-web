@@ -1,0 +1,56 @@
+
+.kontak-wrapper {
+    margin: 80px 100px; 
+    display: flex;
+    gap: 50px; 
+    font-weight: 700;
+}
+
+
+.kontak-left {
+    width: 38%; 
+}
+
+.kontak-title {
+    font-weight: 700;
+    font-size: 36px;  
+    margin-bottom: 35px;
+}
+
+.kontak-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;      
+    margin-bottom: 30px; 
+}
+
+.kontak-item img {
+    width: 40px;  
+    height: 40px;
+}
+
+.kontak-item span {
+    font-size: 18px; 
+}
+
+.map-container {
+    width: 62%; 
+}
+
+.map-wrapper {
+    height: 520px;
+    border-radius: 18px;
+}
+
+.map-frame {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    border-radius: 18px;
+}
+
+@media (min-width: 1600px) {
+    .map-wrapper {
+        height: 580px;
+    }
+}

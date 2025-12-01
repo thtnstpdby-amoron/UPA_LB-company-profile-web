@@ -1,0 +1,79 @@
+.layanan{
+    position: relative;
+}
+
+.bungkus-sego{
+    max-width: 100%;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    align-items: center;
+}
+
+.text-{
+    position: relative;
+    z-index: 5;
+    margin-top: -3%;
+}
+
+.text- h1{
+    font-weight: 700;
+    color: aliceblue;
+    margin-bottom: 5px;
+}
+
+.text- p{
+    font-size: 1.2em;
+    font-weight: 400;
+    color: aliceblue;
+    line-height: 1;
+    margin-bottom: 100px;
+}
+
+.bungkus-sego svg{
+    position: absolute;
+    top: -500px;
+    left: -500px;
+    width: auto;
+    height: auto;
+    z-index: 1;
+}
+
+.bungkus-lawuh{
+    position: relative;
+    z-index: 5;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+}
+ 
+.lawuh{
+    width: 290px;
+    height: 390px;
+    background-color: #1BC79A;
+    border-radius: 22px;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 4px 6px 15px 2px rgba(0, 0, 0, 0.5);
+}
+
+.imag{
+    width: 300px;
+    height: 300px;
+}
+
+.tek{
+    font-weight: 700;
+    margin-top: -50px;
+    color: white;
+    font-size: 1.2em;
+    line-height: 1;
+}
+
+.lawuh:hover{
+    background-image: linear-gradient(#1BC79A, #0D614B);
+}
