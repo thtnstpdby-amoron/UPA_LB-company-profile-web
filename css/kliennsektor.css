@@ -8,7 +8,7 @@
     position: relative;
     height: 500px; 
     color: white;
-    background-image: url('/assets/photos/foto.jpg'); 
+    background-image: url('../assets/photos/foto.jpg'); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
