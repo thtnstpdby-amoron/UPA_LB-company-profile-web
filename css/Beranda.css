@@ -138,26 +138,11 @@
 
 .section-title{
     position: relative;
-    font: 2.2em;
+    font-size: 2.2em;
     font-weight: 700;
     color: #004d40;
     margin-bottom: 0;
     padding-bottom: 30px;
-}
-
-.section-title::after{
-    content: "";
-    display: block;
-    border-radius: 30px;
-    width: 500px;
-    height: 4px;
-    background-color: #00A968;
-    margin-left: auto;
-    margin-right: auto;
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
 }
 
 .lead{
@@ -488,7 +473,7 @@
 }
 
 .garis-ijo{
-    width: 510px;
+    width: 30%;
     height: 10px;
     background-color: #06956F;
     border-radius: 16px;
