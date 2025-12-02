@@ -3,43 +3,36 @@
 }
 
 .bungkus-sego{
-    max-width: 100%;
-    height: 100%;
-    overflow: hidden;
+    width: 100%;
     text-align: center;
-    height: auto;
-    padding-top: 80px;
     padding-bottom: 50px;
     align-items: center;
+}
+
+.bungkus-sego svg{
+    width: 100%;
+    display: block;
+    z-index: 1;
 }
 
 .text-{
     position: relative;
     z-index: 5;
-    margin-top: -3%;
+    margin-top: -40%;
 }
 
 .text- h1{
     font-weight: 700;
-    color: aliceblue;
+    color: white;
     margin-bottom: 5px;
 }
 
 .text- p{
     font-size: 1.2em;
     font-weight: 400;
-    color: aliceblue;
+    color: white;
     line-height: 1;
     margin-bottom: 100px;
-}
-
-.bungkus-sego svg{
-    position: absolute;
-    top: -500px;
-    left: -500px;
-    width: auto;
-    height: auto;
-    z-index: 1;
 }
 
 .bungkus-lawuh{
@@ -76,4 +69,17 @@
 
 .lawuh:hover{
     background-image: linear-gradient(#1BC79A, #0D614B);
+}
+
+@media (max-width: 576px){
+    .bungkus-lawuh{
+        flex-direction: column;
+        align-items: center;
+    }
+    .lawuh{
+        width: 70%;
+    }
+    .bungkus-sego svg{
+
+    }
 }

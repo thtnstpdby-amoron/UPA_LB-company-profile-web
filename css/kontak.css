@@ -54,3 +54,17 @@
         height: 580px;
     }
 }
+
+@media (max-width: 576px){
+    .kontak-wrapper{
+        display: flex;
+        flex-direction: column;
+        margin: 20px 30px;
+    }
+    .kontak-left{
+        width: 100%;
+    }
+    .map-container{
+        width: 100%;
+    }
+}
