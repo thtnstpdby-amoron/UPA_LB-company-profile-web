@@ -11,8 +11,19 @@ body{
     padding-top: 60px;
     font-family: outfit;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    animation: ease-in-out;
 }
 
 html{
     scroll-behavior: smooth;
+}
+
+/* CSS */
+.fade-out {
+    opacity: 0;
+    transition: opacity 0.5s ease-out; /* Define the animation duration */
+}
+
+body.is-loading {
+    opacity: 0; /* Hide the page completely until loaded */
 }

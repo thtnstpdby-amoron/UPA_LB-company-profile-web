@@ -24,27 +24,35 @@
 }
 .submenu-group.visible {
     display: block;
+    animation: ease-in;
 }
-
-/*wrapper utama*/
 
 
 /*wrapper navigasi layanan*/
 .navigasi-layanan{
-    width: 250px;
+    width: 300px;
     height: 500px;
     display: flex;
     flex-direction: column;
     gap: 5px;
 }
 
-/*btn navigasi*/
+.filter-btn.active{
+    background-color: #D4FFF4;
+    color: #18A9AC;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.4);
+    animation: ease-in;
+}
 
+.filter-btn.active img{
+    filter: invert(50%);
+    animation: ease-in;
+}
 
 .filter-btn{
     color: white;
     width: 100%;
-    height: 50px;
+    height: 70px;
     border-radius: 20px;
     background-color: #1BC79A;
     text-decoration: none;
@@ -57,6 +65,8 @@
 .services-container{
     width: 900px;
     height: 500px;
+    overflow-y: hidden;
+    overflow-y: scroll;
     border-radius: 33px;
     background-image: linear-gradient(to left, #02906B, #04B98B);
 }
@@ -65,4 +75,34 @@
     margin-top: 40px;
     margin-left: 25px;
     color: white;
+}
+
+.service-listing .table-header{
+    font-weight: 700;
+    color: white;
+}
+
+.service-listing .table-row{
+    color: white;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.table-row p{
+    width: 300px;
+}
+
+.table-row-pelatihan{
+    color: white;
+    margin-left: 30px;
+    padding-top: 15px;
+    border-bottom: 4px solid rgba(255, 255, 255, 0.2);
+}
+
+
+.table-row{
+    padding-top: 15px;
+    border-bottom: 4px solid rgba(255, 255, 255, 0.2);
 }
